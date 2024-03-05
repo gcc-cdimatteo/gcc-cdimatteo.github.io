@@ -1,20 +1,20 @@
 'use client';
 
 import React, { useState } from 'react';
-import {
-  DesktopOutlined,
-  FileOutlined,
-  PieChartOutlined,
-  TeamOutlined,
-  UserOutlined,
-} from '@ant-design/icons';
+
+// antd
 import type { MenuProps } from 'antd';
 import { Breadcrumb, Layout, Menu, theme } from 'antd';
-import Logo from './ui/logo';
+
+// mui
 import SchoolIcon from '@mui/icons-material/School';
-import { AddToPhotosOutlined, AssignmentTurnedInOutlined, BookmarkBorderOutlined, CreateOutlined, EventOutlined, HistoryEduOutlined, HistoryEduRounded, HomeOutlined, HomeRounded, MenuBookOutlined, RoundedCorner, WatchLaterOutlined } from '@mui/icons-material';
-import { merriweather } from './ui/fonts';
-import { Button } from '@mui/material';
+import { AddToPhotosOutlined, AssignmentTurnedInOutlined, BookmarkBorderOutlined, EventOutlined, HomeRounded, WatchLaterOutlined } from '@mui/icons-material';
+
+import Logo from '../components/logo';
+import { merriweather } from '../components/fonts';
+
+
+// CODE
 
 const { Header, Content, Footer, Sider } = Layout;
 
