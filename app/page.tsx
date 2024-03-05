@@ -32,7 +32,7 @@ const items2: MenuProps['items'] = [UserOutlined, LaptopOutlined, NotificationOu
   },
 );
 
-export default function Home() {
+export default function Page() {
   const {
     token: { colorBgContainer, borderRadiusLG },
   } = theme.useToken();
