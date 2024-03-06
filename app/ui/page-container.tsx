@@ -26,7 +26,7 @@ export default function PageContainer({ breadcrumb, content }: { breadcrumb: str
                     background: '#BFDDF4',
                     borderRadius: borderRadiusLG,
                     color: '#000000',
-                    display: 'grid',
+                    // display: 'flex',
                 }}
             >
                 {content}

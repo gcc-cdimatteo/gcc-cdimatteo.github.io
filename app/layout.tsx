@@ -29,8 +29,8 @@ export default function RootLayout({
               {/* <SchoolIcon htmlColor='#75B7E6' fontSize='large'></SchoolIcon> */}
               <Image
                 src={'/fiuba.png'}
-                width={100}
-                height={100}
+                width={50}
+                height={50}
                 alt={''}
               ></Image>
             </div>

@@ -12,7 +12,7 @@ export default function Page() {
   const p_content: ReactElement = (
     <>
       <Typography style={{ fontSize: 16 }}>
-        <p>Bienvenido al Sitio Oficial de la Materia Introducción al Desarrollo de Software de la Facultad de Ingenieria de la Universidad de Buenos Aires, curso: Lanzillotta.</p>
+        Bienvenido al Sitio Oficial de la Materia Introducción al Desarrollo de Software de la Facultad de Ingenieria de la Universidad de Buenos Aires, curso: Lanzillotta.
 
         <p>Las clases se desarrollan los días martes y miércoles de 18 a 21 hs.</p>
 
