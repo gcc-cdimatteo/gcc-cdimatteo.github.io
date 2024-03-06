@@ -2,12 +2,11 @@
 
 import React, { useState } from 'react';
 import { Layout, theme } from 'antd';
-import Logo from './ui/logo';
+import SubjectName from './ui/subject-name';
 import SchoolIcon from '@mui/icons-material/School';
 import { merriweather } from './ui/fonts';
-import Link from 'next/link';
-import { Button } from '@mui/material';
 import NavLinks from './ui/nav-links';
+import Image from 'next/image'
 
 const { Header, Footer, Sider } = Layout;
 
@@ -23,21 +22,23 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={merriweather.className} style={{ marginLeft: '0px', marginTop: '0px' }}>
+      <body className={merriweather.className} style={{ marginLeft: '0px', marginRight: '0px', marginTop: '0px' }}>
         <Layout style={{ minHeight: '100vh' }}>
           <Sider collapsible collapsed={collapsed} onCollapse={(value) => setCollapsed(value)}>
-            <div className="demo-logo-vertical" style={{ textAlign: 'center', marginTop: '12px', marginBottom: '12px' }} >
-              <Link href="/">
-                <Button>
-                  <SchoolIcon htmlColor='#75B7E6' fontSize='large'></SchoolIcon>
-                </Button>
-              </Link>
+            <div className="demo-logo-vertical" style={{ maxHeight: 100, textAlign: 'center', marginTop: '12px', marginBottom: '12px' }} >
+              {/* <SchoolIcon htmlColor='#75B7E6' fontSize='large'></SchoolIcon> */}
+              <Image
+                src={'/fiuba.png'}
+                width={100}
+                height={100}
+                alt={''}
+              ></Image>
             </div>
             <NavLinks></NavLinks>
           </Sider>
           <Layout>
-            <Header style={{ padding: 0, background: colorBgContainer, display: 'flex', justifyContent: 'left', alignItems: 'center' }}>
-              <Logo />
+            <Header style={{ paddingLeft: 24, marginTop: 12, marginRight: 12, marginLeft: 16, background: '#0079D4', borderRadius: borderRadiusLG, display: 'flex', justifyContent: 'left', alignItems: 'center' }}>
+              <SubjectName />
             </Header>
             {children}
             <Footer style={{ textAlign: 'center' }}>

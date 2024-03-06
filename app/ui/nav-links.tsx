@@ -1,5 +1,7 @@
-import { AddToPhotosOutlined, AssignmentTurnedInOutlined, BookmarkBorderOutlined, EventOutlined, HomeRounded, WatchLaterOutlined } from '@mui/icons-material';
+import { AddToPhotosOutlined, AssignmentTurnedInOutlined, BookmarkBorderOutlined, EventOutlined, Group, HomeRounded, WatchLaterOutlined } from '@mui/icons-material';
 import { Menu, type MenuProps } from 'antd';
+import Link from 'next/link';
+import { useState } from 'react';
 
 type MenuItem = Required<MenuProps>['items'][number];
 
@@ -18,21 +20,23 @@ function getItem(
 }
 
 const items: MenuItem[] = [
-    getItem('Inicio', 'home', <HomeRounded />),
-    getItem('Analítico', '2', <AssignmentTurnedInOutlined />),
-    getItem('Cursada', '3', <WatchLaterOutlined />),
-    getItem('Calendario', '4', <EventOutlined />),
-    // getItem('User', 'sub1', <UserOutlined />, [
-    //   getItem('Tom', '3'),
-    //   getItem('Bill', '4'),
-    //   getItem('Alex', '5'),
-    // ]),
-    getItem('Bibliografía', '9', <BookmarkBorderOutlined />),
-    getItem('Material Adicional', '10', <AddToPhotosOutlined />),
+    getItem((<Link href='/inicio'>Inicio</Link>), 'inicio', <HomeRounded />),
+    getItem((<Link href='/docentes'>Docentes</Link>), 'docentes', <Group />),
+    getItem((<Link href='/programa'>Programa</Link>), 'programa', <AssignmentTurnedInOutlined />),
+    getItem((<Link href='/cursada'>Cursada</Link>), 'cursada', <WatchLaterOutlined />),
+    getItem((<Link href='/calendario'>Calendario</Link>), 'calendario', <EventOutlined />),
+    getItem((<Link href='/bibliografia'>Bibliografía</Link>), 'bibliografia', <BookmarkBorderOutlined />),
+    getItem((<Link href='/material-adicional'>Material Adicional</Link>), 'material-adicional', <AddToPhotosOutlined />),
 ];
 
 export default function NavLinks() {
+    const [current, setCurrent] = useState('inicio');
+
+    const onClick: MenuProps['onClick'] = (e) => {
+        setCurrent(e.key);
+    };
+
     return (
-        <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline" items={items} />
+        <Menu theme="dark" defaultSelectedKeys={['inicio']} mode="inline" items={items} onClick={onClick} />
     );
 };
