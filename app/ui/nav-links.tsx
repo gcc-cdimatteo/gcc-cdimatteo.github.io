@@ -20,7 +20,7 @@ function getItem(
 }
 
 const items: MenuItem[] = [
-    getItem((<Link href='/inicio'>Inicio</Link>), 'inicio', <HomeRounded />),
+    getItem((<Link href='/'>Inicio</Link>), 'inicio', <HomeRounded />),
     getItem((<Link href='/docentes'>Docentes</Link>), 'docentes', <Group />),
     getItem((<Link href='/programa'>Programa</Link>), 'programa', <AssignmentTurnedInOutlined />),
     getItem((<Link href='/cursada'>Cursada</Link>), 'cursada', <WatchLaterOutlined />),

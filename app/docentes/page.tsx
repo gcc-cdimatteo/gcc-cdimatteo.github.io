@@ -14,27 +14,27 @@ export default function Page() {
           Los docentes de la cátedra somos:
           <br />
           <br />
-          <Teacher icon={<School style={{ color: '#884DEB' }} />} name={<> Lic. Bruno Lanzillotta </>} />
+          <Teacher icon={<School style={{ color: '#006EAF' }} />} name={<> Lic. Bruno Lanzillotta </>} />
           <br />
-          <Teacher icon={<Face style={{ color: '#884DEB' }} />} name={<> Martín Sosa </>} />
+          <Teacher icon={<Face style={{ color: '#006EAF' }} />} name={<> Martín Sosa </>} />
           <br />
-          <Teacher icon={<Face style={{ color: '#884DEB' }} />} name={<> Franco Capra </>} />
+          <Teacher icon={<Face style={{ color: '#006EAF' }} />} name={<> Franco Capra </>} />
           <br />
-          <Teacher icon={<Face2 style={{ color: '#884DEB' }} />} name={<> Carolina Di Matteo </>} />
+          <Teacher icon={<Face2 style={{ color: '#006EAF' }} />} name={<> Carolina Di Matteo </>} />
           <br />
-          <Teacher icon={<Face6 style={{ color: '#884DEB' }} />} name={<> Leonel Chaves </>} />
+          <Teacher icon={<Face6 style={{ color: '#006EAF' }} />} name={<> Leonel Chaves </>} />
           <br />
-          <Teacher icon={<Face6 style={{ color: '#884DEB' }} />} name={<> Tomás Villegas </>} />
+          <Teacher icon={<Face6 style={{ color: '#006EAF' }} />} name={<> Tomás Villegas </>} />
           <br />
-          <Teacher icon={<Person style={{ color: '#884DEB' }} />} name={<> Nestor Palavecino </>} />
+          <Teacher icon={<Person style={{ color: '#006EAF' }} />} name={<> Nestor Palavecino </>} />
           <br />
-          <Teacher icon={<Person style={{ color: '#884DEB' }} />} name={<> Marina Petean </>} />
+          <Teacher icon={<Person style={{ color: '#006EAF' }} />} name={<> Marina Petean </>} />
           <br />
-          <Teacher icon={<Person style={{ color: '#884DEB' }} />} name={<> Nicolás Romano </>} />
+          <Teacher icon={<Person style={{ color: '#006EAF' }} />} name={<> Nicolás Romano </>} />
           <br />
-          <Teacher icon={<Person style={{ color: '#884DEB' }} />} name={<> Santiago Novaro </>} />
+          <Teacher icon={<Person style={{ color: '#006EAF' }} />} name={<> Santiago Novaro </>} />
           <br />
-          <Teacher icon={<Person style={{ color: '#884DEB' }} />} name={<> Francisco Lorda </>} />
+          <Teacher icon={<Person style={{ color: '#006EAF' }} />} name={<> Francisco Lorda </>} />
         </div>
       </Typography>
     </>

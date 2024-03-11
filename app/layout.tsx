@@ -26,7 +26,6 @@ export default function RootLayout({
         <Layout style={{ minHeight: '100vh' }}>
           <Sider collapsible collapsed={collapsed} onCollapse={(value) => setCollapsed(value)}>
             <div className="demo-logo-vertical" style={{ maxHeight: 100, textAlign: 'center', marginTop: '12px', marginBottom: '12px' }} >
-              {/* <SchoolIcon htmlColor='#75B7E6' fontSize='large'></SchoolIcon> */}
               <Image
                 src={'/fiuba.png'}
                 width={50}
