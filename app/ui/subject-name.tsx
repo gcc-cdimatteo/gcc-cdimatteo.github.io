@@ -1,12 +1,11 @@
-import { Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import { merriweather } from './fonts';
+import Title from 'antd/es/typography/Title';
 
 export default function SubjectName() {
   return (
-    <div>
-      <Typography style={{ marginLeft: '0px' }} color='#FFFFFF' fontFamily={merriweather.className} fontSize={'32px'}>
-        Introducción al Desarrollo de Software - Lanzillotta - 2024C1
-      </Typography>
-    </div>
+    <Title level={2} style={{ fontSize: '1.5rem', marginLeft: '0px', color: '#FFFFFF' }}>
+      Introducción al Desarrollo de Software - Lanzillotta
+    </Title>
   );
 }
