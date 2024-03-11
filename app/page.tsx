@@ -26,8 +26,8 @@ export default function Page() {
           > en este link</Link>.</p>
 
         <h4>Importante</h4>
-        <ListItem icon={<Report style={{ color: '#D00026' }} />} text={<p>Si <u>estás inscripto en la materia</u>, por favor, llena <Link href='/'> este formulario</Link>.</p>} />
-        <ListItem icon={<Report style={{ color: '#D00026' }} />} text={<p>Si <u>ya llenaste el formulario anterior</u> y <u>marcaste la opción <i>"voy a cursar en esta cátedra"</i></u>, por favor, llena <Link href='/'> este otro formulario</Link>.</p>} />
+        <ListItem icon={<Report style={{ color: '#D00026' }} />} text={<p>Si <u>estás inscripto en la materia</u>, por favor, llena <Link href="https://forms.gle/ohzXL2d66PMwDjVy6"> este formulario</Link>.</p>} />
+        <ListItem icon={<Report style={{ color: '#D00026' }} />} text={<p>Si <u>ya llenaste el formulario anterior</u> y <u>marcaste la opción <i>"voy a cursar en esta cátedra"</i></u>, por favor, llena <Link href="https://forms.gle/H6YoEEiaP32zrRfR7"> este otro formulario</Link>.</p>} />
 
         <h4>Novedades y Contacto</h4>
         <p>Cualquier novedad en lo que respecte a la cursada, trámites administrativos y consultas las estaremos publicando tanto en esta página web como nuestro <Link href="https://join.slack.com/t/introduccinal/shared_invite/zt-2d59bckpc-gqoV7VvSIqulLUeImEoYOw">canal de Slack</Link>.</p>
