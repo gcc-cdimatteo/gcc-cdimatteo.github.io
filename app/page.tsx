@@ -25,8 +25,8 @@ export default function Page() {
             href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDM4MGJhNjgtYTVmYS00N2M0LWE0MTktYjUxNjlmMWEwNjcy%40thread.v2/0?context=%7b%22Tid%22%3a%22e13f1e52-6e32-4972-82ca-697420ee3c98%22%2c%22Oid%22%3a%226746d176-ad45-418c-9ecd-30c9893941f8%22%7d"
           > en este link</Link>.</p>
 
-        <h4>Importante</h4>
-        <ListItem icon={<Report style={{ color: '#D00026' }} />} text={<p>Si <u>estás inscripto en la materia</u>, por favor, llena <Link href="https://forms.gle/ohzXL2d66PMwDjVy6" target="_blank"> este formulario</Link>.</p>} />
+        {/* <h4>Importante</h4>
+        <ListItem icon={<Report style={{ color: '#D00026' }} />} text={<p>Si <u>estás inscripto en la materia</u>, por favor, llena <Link href="https://forms.gle/ohzXL2d66PMwDjVy6" target="_blank"> este formulario</Link>.</p>} /> */}
 
         <h4>Novedades y Contacto</h4>
         <p>Cualquier novedad en lo que respecte a la cursada, trámites administrativos y consultas las estaremos publicando tanto en esta página web como nuestro <Link href="https://join.slack.com/t/introduccinal/shared_invite/zt-2d59bckpc-gqoV7VvSIqulLUeImEoYOw" target="_blank">canal de Slack</Link>.</p>
