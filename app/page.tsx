@@ -26,7 +26,7 @@ export default function Page() {
           > en este link</Link>.</p>
 
         <h4>Importante</h4>
-        <ListItem icon={<Report style={{ color: '#D00026' }} />} text={<p>Si <u>estás inscripto en la materia</u>, por favor, llena <Link href="https://forms.gle/ohzXL2d66PMwDjVy6"> este formulario</Link>.</p>} />
+        <ListItem icon={<Report style={{ color: '#D00026' }} />} text={<p>Si <u>estás inscripto en la materia</u>, por favor, llena <Link href="https://forms.gle/ohzXL2d66PMwDjVy6" target="_blank"> este formulario</Link>.</p>} />
         <ListItem icon={<Report style={{ color: '#D00026' }} />} text={<p>Si <u>ya llenaste el formulario anterior</u> y <u>marcaste la opción <i>"voy a cursar en esta cátedra"</i></u>, por favor, llena <Link href="https://forms.gle/H6YoEEiaP32zrRfR7" target="_blank"> este otro formulario</Link>.</p>} />
 
         <h4>Novedades y Contacto</h4>
