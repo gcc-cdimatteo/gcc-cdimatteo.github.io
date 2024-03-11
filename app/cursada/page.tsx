@@ -5,7 +5,7 @@ import { CheckBox, Info } from '@mui/icons-material';
 
 export default function Page() {
   const p_content = <>
-    <Typography style={{ fontSize: 16 }}>
+    <Typography style={{ fontSize: '1rem' }}>
       Los requerimientos para <b>regularizar</b> la materia son:
       <ListItem icon={<CheckBox sx={{ fontSize: 16, color: '#006EAF' }} />} text={<p>Aprobar el Primer Parcialito</p>} />
       <ListItem icon={<CheckBox sx={{ fontSize: 16, color: '#006EAF' }} />} text={<p>Aprobar el Segundo Parcialito</p>} />

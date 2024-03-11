@@ -1,7 +1,7 @@
 import { ReactElement } from 'react';
 import PageContainer from '../ui/page-container';
 import { Typography } from 'antd';
-import { Face, Face2, Face5, Face6, Person, School } from '@mui/icons-material';
+import { Face, Face2, Face2Outlined, Face5, Face6, Person, School } from '@mui/icons-material';
 import { Box, Icon } from '@mui/material';
 import Tab from '../ui/tab';
 import Teacher from '../ui/teacher';
@@ -9,7 +9,7 @@ import Teacher from '../ui/teacher';
 export default function Page() {
   const p_content: ReactElement = (
     <>
-      <Typography style={{ fontSize: 16 }}>
+      <Typography style={{ fontSize: '1rem' }}>
         <div>
           Los docentes de la cátedra somos:
           <br />
@@ -26,15 +26,15 @@ export default function Page() {
           <br />
           <Teacher icon={<Face6 style={{ color: '#006EAF' }} />} name={<> Tomás Villegas </>} />
           <br />
-          <Teacher icon={<Person style={{ color: '#006EAF' }} />} name={<> Nestor Palavecino </>} />
+          <Teacher icon={<Face style={{ color: '#006EAF' }} />} name={<> Nestor Palavecino </>} />
           <br />
-          <Teacher icon={<Person style={{ color: '#006EAF' }} />} name={<> Marina Petean </>} />
+          <Teacher icon={<Face2 style={{ color: '#006EAF' }} />} name={<> Marina Petean </>} />
           <br />
-          <Teacher icon={<Person style={{ color: '#006EAF' }} />} name={<> Nicolás Romano </>} />
+          <Teacher icon={<Face6 style={{ color: '#006EAF' }} />} name={<> Nicolás Romano </>} />
           <br />
-          <Teacher icon={<Person style={{ color: '#006EAF' }} />} name={<> Santiago Novaro </>} />
+          <Teacher icon={<Face6 style={{ color: '#006EAF' }} />} name={<> Santiago Novaro </>} />
           <br />
-          <Teacher icon={<Person style={{ color: '#006EAF' }} />} name={<> Francisco Lorda </>} />
+          <Teacher icon={<Face style={{ color: '#006EAF' }} />} name={<> Francisco Lorda </>} />
         </div>
       </Typography>
     </>

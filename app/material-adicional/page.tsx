@@ -3,8 +3,8 @@ import { Typography } from 'antd';
 
 export default function Page() {
   const p_content = <>
-    <Typography style={{ fontSize: 16 }}>
-      <p>Contenido para Material Adicional</p>
+    <Typography style={{ fontSize: '1rem' }}>
+      Contenido para Material Adicional
     </Typography>
   </>;
 

@@ -4,8 +4,8 @@ import { Typography } from 'antd';
 
 export default function Page() {
   const p_content = <>
-    <Typography style={{ fontSize: 16 }}>
-      <p>Bibliografía utilizada:</p>
+    <Typography style={{ fontSize: '1rem' }}>
+      Bibliografía utilizada:
       <Book
         link="https://drive.google.com/file/d/16T8ipooOMVdwPBaoinm3CNc5Mlt0TACP/view?usp=drive_link"
         title="Bash Beginners Guide - Machtelt Garrels"

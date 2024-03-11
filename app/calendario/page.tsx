@@ -10,34 +10,32 @@ import { calendar_rows_details } from '../ui/calendario/rows-details';
 export default function Page() {
 
   const p_content = <>
-    <Typography style={{ fontSize: 16 }}>
-      <Row style={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
-        <CalendarRowHeader />
+    <Row style={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
+      <CalendarRowHeader />
 
-        <Divider style={{ borderWidth: 4, borderColor: '#306CBE' }} />
+      <Divider style={{ borderWidth: 4, borderColor: '#306CBE' }} />
 
-        {calendar_rows_details.map((row: any) => {
-          return (
-            <>
-              <CalendarRow
-                semana={row.semana}
-                teorica_fecha={row.teorica_fecha}
-                teorica_temas={row.teorica_temas}
-                teorica_diapositiva={row.teorica_diapositiva}
-                teorica_modalidad={row.teorica_modalidad}
-                teorica_grabacion={row.teorica_grabacion}
-                practica_fecha={row.practica_fecha}
-                practica_temas={row.practica_temas}
-                practica_diapositiva={row.practica_diapositiva}
-                practica_modalidad={row.practica_modalidad}
-                practica_grabacion={row.practica_grabacion} />
+      {calendar_rows_details.map((row: any) => {
+        return (
+          <>
+            <CalendarRow
+              semana={row.semana}
+              teorica_fecha={row.teorica_fecha}
+              teorica_temas={row.teorica_temas}
+              teorica_diapositiva={row.teorica_diapositiva}
+              teorica_modalidad={row.teorica_modalidad}
+              teorica_grabacion={row.teorica_grabacion}
+              practica_fecha={row.practica_fecha}
+              practica_temas={row.practica_temas}
+              practica_diapositiva={row.practica_diapositiva}
+              practica_modalidad={row.practica_modalidad}
+              practica_grabacion={row.practica_grabacion} />
 
-              <Divider style={{ borderWidth: 1, borderColor: '#607899' }} />
-            </>
-          );
-        })}
-      </Row>
-    </Typography>
+            <Divider style={{ borderWidth: 1, borderColor: '#607899' }} />
+          </>
+        );
+      })}
+    </Row>
   </>;
 
   return (

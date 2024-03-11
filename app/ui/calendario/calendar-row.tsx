@@ -35,9 +35,9 @@ export default function CalendarRow(
     }) {
     return (
         <>
-            <ColSemana semana_nro={semana} />
+            {/* <ColSemana semana_nro={semana} /> */}
             {/* <Divider style={{ borderWidth: 1, borderColor: '#607899' }} type="vertical" /> */}
-            <ColWhite />
+            {/* <ColWhite /> */}
             <ColFecha fecha={teorica_fecha} />
             <ColTeoricaPractica content={teorica_temas} />
             <ColDiapositivaModalidadGrabacion url_diapositiva={teorica_diapositiva} modalidad={teorica_modalidad} url_grabacion={teorica_grabacion} />

@@ -37,6 +37,6 @@ export default function NavLinks() {
     };
 
     return (
-        <Menu theme="dark" defaultSelectedKeys={['inicio']} mode="inline" items={items} onClick={onClick} />
+        <Menu theme="dark" defaultSelectedKeys={['inicio']} mode="horizontal" items={items} style={{ flex: 1, minWidth: 0 }} onClick={onClick} />
     );
 };

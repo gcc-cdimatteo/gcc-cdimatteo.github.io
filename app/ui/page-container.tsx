@@ -12,8 +12,8 @@ export default function PageContainer({ breadcrumb, content }: { breadcrumb: str
     } = theme.useToken();
 
     return (
-        <Content style={{ margin: '0 16px' }}>
-            <Breadcrumb style={{ margin: '16px 0' }}>
+        <Content style={{ marginLeft: '1rem', marginRight: '1rem' }}>
+            <Breadcrumb style={{ marginTop: '1rem', marginBottom: '1rem' }}>
                 <Breadcrumb.Item>
                     <SchoolIcon></SchoolIcon>
                 </Breadcrumb.Item>
@@ -21,8 +21,9 @@ export default function PageContainer({ breadcrumb, content }: { breadcrumb: str
             </Breadcrumb>
             <Content
                 style={{
-                    padding: 24,
-                    margin: 0,
+                    padding: '2rem',
+                    marginTop: '1rem',
+                    // margin: 0,
                     background: '#BFDDF4',
                     borderRadius: borderRadiusLG,
                     color: '#000000',

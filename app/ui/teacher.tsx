@@ -6,9 +6,6 @@ export default function ({ icon, name }: { icon: ReactElement, name: ReactElemen
     return (
         <Box display={'flex'} alignItems={'center'} alignContent={'center'} gridRow={1} >
             <Tab />
-            <Tab />
-            <Tab />
-            <Tab />
             {icon}
             <span> &nbsp; &nbsp;
                 {name}

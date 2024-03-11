@@ -7,7 +7,7 @@ import { StarOutline } from '@mui/icons-material';
 
 export default function Page() {
   const p_content = <>
-    <Typography style={{ fontSize: 16 }}>
+    <Typography style={{ fontSize: '1rem' }}>
       Durante la materia, desarrollaremos los siguientes contenidos:
       <ListItem icon={<StarOutline style={{ color: '#006EAF' }} />} text={<p>Nociones Básicas de Sistemas Operativos Linux</p>} />
       <ListItem icon={<StarOutline style={{ color: '#006EAF' }} />} text={<p>Nociones básicas de Entorno de Programación</p>} />

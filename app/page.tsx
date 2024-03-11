@@ -18,8 +18,12 @@ export default function Page() {
         <h4>Información General</h4>
         <p>Las clases se desarrollan los días martes y jueves de 18 a 21 hs.</p>
         <p>La modalidad será de tipo <b>híbrida</b>: <u>las clases se dictarán presencialmente con la posibilidad de asistir a ellas de forma virtual por streaming</u>.</p>
-        <p>Aquellos que quieran asistir a las clases de forma presencial, los esperamos en el aula [N° AULA].</p>
-        <p>Quienes asistan de forma virtual, los esperamos en el link [LINK].</p>
+        <p>Aquellos que quieran asistir a las clases de forma presencial, los esperamos en el aula [A DETERMINAR].</p>
+        <p>Quienes asistan de forma virtual, los esperamos
+          <Link
+            target="_blank"
+            href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDM4MGJhNjgtYTVmYS00N2M0LWE0MTktYjUxNjlmMWEwNjcy%40thread.v2/0?context=%7b%22Tid%22%3a%22e13f1e52-6e32-4972-82ca-697420ee3c98%22%2c%22Oid%22%3a%226746d176-ad45-418c-9ecd-30c9893941f8%22%7d"
+          > en este link</Link>.</p>
 
         <h4>Importante</h4>
         <ListItem icon={<Report style={{ color: '#D00026' }} />} text={<p>Si <u>estás inscripto en la materia</u>, por favor, llena <Link href='/'> este formulario</Link>.</p>} />
