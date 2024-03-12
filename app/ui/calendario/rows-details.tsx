@@ -51,7 +51,7 @@ export const calendar_rows_details = [
             'Terminal'
         ],
         teorica_diapositiva: clases_diapositivas[0],
-        teorica_modalidad: (<><ModalidadStream /></ >),
+        teorica_modalidad: (<><ModalidadVirtual /></ >),
         teorica_grabacion: clases_grabaciones.clase_00,
         practica_fecha: "14/03/2024",
         practica_temas: [
@@ -63,7 +63,7 @@ export const calendar_rows_details = [
             'Estructuras Condicionales e Iterativas'
         ],
         practica_diapositiva: clases_diapositivas[1],
-        practica_modalidad: (<><ModalidadVirtual /></>),
+        practica_modalidad: (<><ModalidadStream /></>),
         practica_grabacion: clases_grabaciones.clase_01
     },
     {
