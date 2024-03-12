@@ -18,6 +18,8 @@ export default function ColDiapositivaModalidadGrabacion({ url_diapositiva, moda
         </>);
     }
 
+    var diapositiva_display = "none";
+    if (url_diapositiva != "") { diapositiva_display = "" }
     var grabacion_display = "none";
     if (url_grabacion != "") { grabacion_display = "" }
 
@@ -30,20 +32,22 @@ export default function ColDiapositivaModalidadGrabacion({ url_diapositiva, moda
                     {modalidad}
                 </Row>
 
-                <br />
-                <br />
 
-                <Row justify={'center'}>
-                    <Link
-                        href={url_diapositiva}
-                        target='_blank'>
-                        <Box display={'flex'} alignItems={'center'} justifyContent={'center'}>
-                            <FilePresentOutlined />
-                            <Space />
-                            Diapositiva
-                        </Box>
-                    </Link>
-                </Row>
+                <Box display={diapositiva_display}>
+                    <br />
+                    <br />
+                    <Row justify={'center'}>
+                        <Link
+                            href={url_diapositiva}
+                            target='_blank'>
+                            <Box display={'flex'} alignItems={'center'} justifyContent={'center'}>
+                                <FilePresentOutlined />
+                                <Space />
+                                Diapositiva
+                            </Box>
+                        </Link>
+                    </Row>
+                </Box>
 
                 <Box display={grabacion_display}>
                     <br />

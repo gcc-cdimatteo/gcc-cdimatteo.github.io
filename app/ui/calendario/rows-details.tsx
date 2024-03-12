@@ -4,8 +4,47 @@ import ModalidadPresencial from "./modalidad-presencial";
 import ModalidadFeriado from "./modalidad-feriado";
 import ModalidadVirtual from "./modalidad-virtual";
 
-const clases_diapositivas = "https://docs.google.com/presentation/d/1zrOqeeOyucCVuej2t1nmGFft-xQNBhLMuiJnTSVQnwQ/edit?usp=drive_link";
+const clases_diapositivas = [
+    "https://docs.google.com/presentation/d/1zrOqeeOyucCVuej2t1nmGFft-xQNBhLMuiJnTSVQnwQ/edit?usp=drive_link",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+];
+
+
+"https://docs.google.com/presentation/d/1zrOqeeOyucCVuej2t1nmGFft-xQNBhLMuiJnTSVQnwQ/edit?usp=drive_link".split(',');
+
 // "https://docs.google.com/presentation/d/1zrOqeeOyucCVuej2t1nmGFft-xQNBhLMuiJnTSVQnwQ/edit?usp=drive_link, https://docs.google.com/presentation/d/1Svufb4eW9yXK3wyeklDMO6ddB6vzU_uhGUsZMMkJlKQ/edit?usp=drive_link, https://docs.google.com/presentation/d/1mvGP6vZh2aLd8voOdUd-X0PQX4fiiIc9XhVkwQGmTSc/edit?usp=drive_link, https://docs.google.com/presentation/d/1j7FlHrVbBDnzxMikSDkcjCAOSc7WgAPnD1CUa_wBEDc/edit?usp=drive_link, https://docs.google.com/presentation/d/1g9s7gULE_edliGFuizlUpg6DNH2ou_POHdiUH_Qv2qA/edit?usp=drive_link, https://docs.google.com/presentation/d/1VReIz3UMY71363_LMQ7vlwor_LB77xB-dj1FkytxWVU/edit?usp=drive_link, https://docs.google.com/presentation/d/1824zTNT1UMFDNs9P1zTUq2NhhljtEyRM30eczNmGNrY/edit?usp=drive_link, https://docs.google.com/presentation/d/1EAK0dXwhYJpUFt8RaHcluX9IwvyS8-A4xpcqNggmbug/edit?usp=drive_link, https://docs.google.com/presentation/d/1lUj9AXzIvDfngeUnuWWiEdLzqaWaHgZNyWThd9YsSO0/edit?usp=drive_link, https://docs.google.com/presentation/d/1OwojI9z1xMlrUGCUVPgVOzJn0WlJ7eWS7vX_EWElH6Q/edit?usp=drive_link, https://docs.google.com/presentation/d/1-uY0XCYSqrvVqta4cOynbU5jzNk7qH-Hy5ZTwdGt6I0/edit?usp=drive_link, https://docs.google.com/presentation/d/1G01kViDKMLN8ZO8sGQTZQjI7WIgsl0HJBx9vg3QLq9M/edit?usp=drive_link, https://docs.google.com/presentation/d/1P6lnjl93PkmoQLB6anGUu3AGseov4007ldI7vesoZnI/edit?usp=drive_link, https://docs.google.com/presentation/d/14EtR30k0Qb5tiUZggxk6fU3FuVO3d8P0y7p5wEmfF38/edit?usp=drive_link, https://docs.google.com/presentation/d/1hanSFqFQTxs_xjR8AdaIS1JoAYa_aR0pdOHJyfAFmjI/edit?usp=drive_link, https://docs.google.com/presentation/d/1z-kIjJRTWH7p4ekoIHRVk-4IAAPexkFXJS5nedwWGh8/edit?usp=drive_link, https://docs.google.com/presentation/d/1wRijYMCrD2llTuBDTqpRVlHgAa0_-odPqwUOPilaAJs/edit?usp=drive_link, https://docs.google.com/presentation/d/1yxp6_NH0DZtkPiPVGJNO2jKcj6S0W4bYwCvbhM8OxSg/edit?usp=drive_link, https://docs.google.com/presentation/d/1oR5IznaLxsgg9RywgX7x55FrP_eyOOxOzAieD79-JE8/edit?usp=drive_link, https://docs.google.com/presentation/d/1Q-lohSqbYPFRMAcc0Hl_XV-PlcliIrchd0mTXOe-tJE/edit?usp=drive_link, https://docs.google.com/presentation/d/1FQwqKXap3aasOGueH8QBOlkbf5WUtwM8el0gaK59O6I/edit?usp=drive_link, https://docs.google.com/presentation/d/1AeC7Z7u3QzhMu694cIVr8-xcnpOQB6l7OthyvxKr6F0/edit?usp=drive_link, https://docs.google.com/presentation/d/1IlL8JHiofLyoYBfog-gSF3X5nX27rd7QHxG-CqE72q4/edit?usp=drive_link, https://docs.google.com/presentation/d/1sQaO7LgALiEk4OfKi52IH6loRlJUwLRGkvOWahyczbI/edit?usp=drive_link, https://docs.google.com/presentation/d/1NKfOz6g6CW38JBgl2m_-Mkwy0WEIgCDUSkeoy1n1tz0/edit?usp=drive_link, https://docs.google.com/presentation/d/1qt2sYBUjDAS1q_Tz2HcCskLLYjl1aq0LptjcR20h0tY/edit?usp=drive_link, https://docs.google.com/presentation/d/1OIfjBCGXhoIhc9PcEj0cBvmFbwOL0FAaBfirNCM1Onc/edit?usp=drive_link, https://docs.google.com/presentation/d/1Gs1S_cwKKwcDyxRkz2y_PSKd3CbJ_2UDhJi_OX85eRI/edit?usp=drive_link, https://docs.google.com/presentation/d/1XKn59td8U9488tjDHgKP5W-EYGvLqY8HoMJjc3PEgLY/edit?usp=drive_link, https://docs.google.com/presentation/d/1s9X_ppJTzas-aAojW3BDDow8HQCSvijLbMSrM7hHQaY/edit?usp=drive_link, https://docs.google.com/presentation/d/1qCDC6HMHDBf1hhZ8Xqe0PNnfNHmvgmj_jWG5fmgMLL8/edit?usp=drive_link, https://docs.google.com/presentation/d/1tt-xAKy-Y9jHvLuuPHee7PqhhmwXTsxENO1JOYXcm2Q/edit?usp=drive_link".split(',');
+
 const clases_grabaciones = {
     clase_00: "",
     clase_01: "",
