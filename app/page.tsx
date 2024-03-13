@@ -18,7 +18,7 @@ export default function Page() {
         <h4>Información General</h4>
         <p>Las clases se desarrollan los días martes y jueves de 18 a 21 hs.</p>
         <p>La modalidad será de tipo <b>híbrida</b>: <u>las clases se dictarán presencialmente con la posibilidad de asistir a ellas de forma virtual por streaming</u>.</p>
-        <p>Aquellos que quieran asistir a las clases de forma presencial, los esperamos en el aula [A DETERMINAR].</p>
+        <p>Aquellos que quieran asistir a las clases de forma presencial, los esperamos en el <u>aula 500 los días martes</u>, y en el <u>aula 400 los días jueves</u>.</p>
         <p>Quienes asistan de forma virtual, los esperamos
           <Link
             target="_blank"
