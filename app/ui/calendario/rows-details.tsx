@@ -102,7 +102,7 @@ export const calendar_rows_details = [
             'Estructuras Condicionales e Iterativas'
         ],
         practica_diapositiva: clases_diapositivas[1],
-        practica_modalidad: (<><ModalidadStream /></>),
+        practica_modalidad: (<><ModalidadVirtual /></>),
         practica_grabacion: clases_grabaciones.clase_01
     },
     {
