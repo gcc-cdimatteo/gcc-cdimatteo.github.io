@@ -7,7 +7,7 @@ import ModalidadVirtual from "./modalidad-virtual";
 const clases_diapositivas = [
     "https://docs.google.com/presentation/d/1zrOqeeOyucCVuej2t1nmGFft-xQNBhLMuiJnTSVQnwQ/edit?usp=drive_link",
     "https://docs.google.com/presentation/d/1Svufb4eW9yXK3wyeklDMO6ddB6vzU_uhGUsZMMkJlKQ/edit?usp=share_link",
-    "",
+    "https://docs.google.com/presentation/d/1mvGP6vZh2aLd8voOdUd-X0PQX4fiiIc9XhVkwQGmTSc/edit?usp=share_link",
     "",
     "",
     "",
@@ -47,7 +47,7 @@ const clases_diapositivas = [
 
 const clases_grabaciones = {
     clase_00: "https://www.youtube.com/watch?v=VqZ77FKwxHI",
-    clase_01: "",
+    clase_01: "https://youtu.be/w9D47I3LBKE?si=AWE1DxWp3uOmnWXu",
     clase_02: "",
     clase_03: "",
     clase_04: "",
