@@ -36,6 +36,8 @@ export default function Page() {
         );
       })}
     </Row>
+
+    <p>actualizado al 23/03/2024</p>
   </>;
 
   return (

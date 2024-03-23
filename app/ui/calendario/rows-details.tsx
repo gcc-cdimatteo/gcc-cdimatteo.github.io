@@ -1,4 +1,3 @@
-import { ReactElement } from "react";
 import ModalidadStream from "./modalidad-stream";
 import ModalidadPresencial from "./modalidad-presencial";
 import ModalidadFeriado from "./modalidad-feriado";
@@ -8,7 +7,7 @@ const clases_diapositivas = [
     "https://docs.google.com/presentation/d/1zrOqeeOyucCVuej2t1nmGFft-xQNBhLMuiJnTSVQnwQ/edit?usp=drive_link",
     "https://docs.google.com/presentation/d/1Svufb4eW9yXK3wyeklDMO6ddB6vzU_uhGUsZMMkJlKQ/edit?usp=share_link",
     "https://docs.google.com/presentation/d/1mvGP6vZh2aLd8voOdUd-X0PQX4fiiIc9XhVkwQGmTSc/edit?usp=share_link",
-    "",
+    "https://docs.google.com/presentation/d/1j7FlHrVbBDnzxMikSDkcjCAOSc7WgAPnD1CUa_wBEDc/edit?usp=drive_link",
     "",
     "",
     "",
@@ -48,8 +47,8 @@ const clases_diapositivas = [
 const clases_grabaciones = {
     clase_00: "https://www.youtube.com/watch?v=VqZ77FKwxHI",
     clase_01: "https://youtu.be/w9D47I3LBKE?si=AWE1DxWp3uOmnWXu",
-    clase_02: "",
-    clase_03: "",
+    clase_02: "https://youtu.be/acV-1Fbj6TA?si=BtbDmPT9GQBu9J4l",
+    clase_03: "https://youtu.be/sh_lNY15JWQ?si=Gekk5KgAQHX1GTT-",
     clase_04: "",
     clase_05: "",
     clase_06: "",
@@ -120,6 +119,7 @@ export const calendar_rows_details = [
         teorica_grabacion: clases_grabaciones.clase_02,
         practica_fecha: "21/03/2024",
         practica_temas: [
+            'Ejercitación de Comandos',
             'Front End',
             'Introducción a Flask, HTML, CSS y Javascript',
             'Mi primer código en Flask',
@@ -139,12 +139,9 @@ export const calendar_rows_details = [
         teorica_modalidad: (<><ModalidadStream /></>),
         teorica_grabacion: clases_grabaciones.clase_04,
         practica_fecha: "28/03/2024",
-        practica_temas: [
-            'Ejercitación integral',
-            'Flask con comandos Linux y Script'
-        ],
+        practica_temas: ['FERIADO'],
         practica_diapositiva: clases_diapositivas[5],
-        practica_modalidad: (<><ModalidadStream /></>),
+        practica_modalidad: (<><ModalidadFeriado /></>),
         practica_grabacion: clases_grabaciones.clase_05
     },
     {
@@ -156,7 +153,7 @@ export const calendar_rows_details = [
         teorica_grabacion: clases_grabaciones.clase_06,
         practica_fecha: "04/04/2024",
         practica_temas: [
-            '1er PARCIALITO',
+            '1er PARCIALITO: Linux + Bash',
             'HTML: ¿Qué es?, ¿Para qué se usa?, Estructura básica, Etiquetas básicas (div, p, a, img, ul / ol, table, form, input, button)',
             'CSS: ¿Qué es?, ¿Para qué se usa?, Clases y IDs, Atributos básicos (color, bg - color, display, text - align, font -*, width, height, margin, padding, border), Flexbox (direction, justify, align)',
         ],
@@ -188,7 +185,7 @@ export const calendar_rows_details = [
         teorica_grabacion: clases_grabaciones.clase_10,
         practica_fecha: "18/04/2024",
         practica_temas: [
-            '2do PARCIALITO',
+            '2do PARCIALITO: HTML, Javascript, CSSm Flask',
             'Depuración (debugging)',
             'Ejercitación Debugging + TDD'
         ],

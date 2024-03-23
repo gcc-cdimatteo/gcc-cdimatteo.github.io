@@ -1,6 +1,7 @@
 import { ReactElement } from "react";
 import Tab from "./tab";
 import { Box } from "@mui/material";
+import ListItem from "./list-item";
 
 export default function ({ icon, name }: { icon: ReactElement, name: ReactElement }) {
     return (
