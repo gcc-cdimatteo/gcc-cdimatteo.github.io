@@ -4,11 +4,11 @@ import ModalidadFeriado from "./modalidad-feriado";
 import ModalidadVirtual from "./modalidad-virtual";
 
 const clases_diapositivas = [
-    "https://docs.google.com/presentation/d/1zrOqeeOyucCVuej2t1nmGFft-xQNBhLMuiJnTSVQnwQ/edit?usp=drive_link",
-    "https://docs.google.com/presentation/d/1Svufb4eW9yXK3wyeklDMO6ddB6vzU_uhGUsZMMkJlKQ/edit?usp=share_link",
-    "https://docs.google.com/presentation/d/1mvGP6vZh2aLd8voOdUd-X0PQX4fiiIc9XhVkwQGmTSc/edit?usp=share_link",
-    "https://docs.google.com/presentation/d/1j7FlHrVbBDnzxMikSDkcjCAOSc7WgAPnD1CUa_wBEDc/edit?usp=drive_link",
-    "",
+    "https://docs.google.com/presentation/d/1zrOqeeOyucCVuej2t1nmGFft-xQNBhLMuiJnTSVQnwQ/edit?usp=drive_link", // 1
+    "https://docs.google.com/presentation/d/1Svufb4eW9yXK3wyeklDMO6ddB6vzU_uhGUsZMMkJlKQ/edit?usp=share_link", // 2
+    "https://docs.google.com/presentation/d/1mvGP6vZh2aLd8voOdUd-X0PQX4fiiIc9XhVkwQGmTSc/edit?usp=share_link", // 3
+    "https://docs.google.com/presentation/d/1j7FlHrVbBDnzxMikSDkcjCAOSc7WgAPnD1CUa_wBEDc/edit?usp=drive_link", // 4
+    "https://docs.google.com/presentation/d/1g9s7gULE_edliGFuizlUpg6DNH2ou_POHdiUH_Qv2qA/edit?usp=share_link", // 5
     "",
     "",
     "",
@@ -49,7 +49,7 @@ const clases_grabaciones = {
     clase_01: "https://youtu.be/w9D47I3LBKE?si=AWE1DxWp3uOmnWXu",
     clase_02: "https://youtu.be/acV-1Fbj6TA?si=BtbDmPT9GQBu9J4l",
     clase_03: "https://youtu.be/sh_lNY15JWQ?si=Gekk5KgAQHX1GTT-",
-    clase_04: "",
+    clase_04: "https://youtu.be/pEzjtpahs-s?si=YIDSBJszKGzBSJk6",
     clase_05: "",
     clase_06: "",
     clase_07: "",
