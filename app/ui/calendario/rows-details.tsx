@@ -9,7 +9,7 @@ const clases_diapositivas = [
     "https://docs.google.com/presentation/d/1mvGP6vZh2aLd8voOdUd-X0PQX4fiiIc9XhVkwQGmTSc/edit?usp=share_link", // 3
     "https://docs.google.com/presentation/d/1j7FlHrVbBDnzxMikSDkcjCAOSc7WgAPnD1CUa_wBEDc/edit?usp=drive_link", // 4
     "https://docs.google.com/presentation/d/1g9s7gULE_edliGFuizlUpg6DNH2ou_POHdiUH_Qv2qA/edit?usp=share_link", // 5
-    "",
+    "https://docs.google.com/presentation/d/1EAK0dXwhYJpUFt8RaHcluX9IwvyS8-A4xpcqNggmbug/edit?usp=sharing", // 6
     "",
     "",
     "",
