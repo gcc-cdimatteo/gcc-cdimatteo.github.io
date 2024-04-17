@@ -37,7 +37,7 @@ export default function Page() {
       })}
     </Row>
 
-    <p>actualizado al 23/03/2024</p>
+    <p>actualizado al 17/04/2024</p>
   </>;
 
   return (

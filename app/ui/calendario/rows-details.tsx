@@ -8,11 +8,13 @@ const clases_diapositivas = [
     "https://docs.google.com/presentation/d/1Svufb4eW9yXK3wyeklDMO6ddB6vzU_uhGUsZMMkJlKQ/edit?usp=share_link", // 2
     "https://docs.google.com/presentation/d/1mvGP6vZh2aLd8voOdUd-X0PQX4fiiIc9XhVkwQGmTSc/edit?usp=share_link", // 3
     "https://docs.google.com/presentation/d/1j7FlHrVbBDnzxMikSDkcjCAOSc7WgAPnD1CUa_wBEDc/edit?usp=drive_link", // 4
+    "",
+    "",
     "https://docs.google.com/presentation/d/1g9s7gULE_edliGFuizlUpg6DNH2ou_POHdiUH_Qv2qA/edit?usp=share_link", // 5
     "https://docs.google.com/presentation/d/1EAK0dXwhYJpUFt8RaHcluX9IwvyS8-A4xpcqNggmbug/edit?usp=sharing", // 6
-    "",
-    "",
-    "",
+    "https://docs.google.com/presentation/d/1lUj9AXzIvDfngeUnuWWiEdLzqaWaHgZNyWThd9YsSO0/edit?usp=share_link", // 7
+    "https://docs.google.com/presentation/d/1lUj9AXzIvDfngeUnuWWiEdLzqaWaHgZNyWThd9YsSO0/edit?usp=share_link", // 7
+    "https://docs.google.com/presentation/d/1-uY0XCYSqrvVqta4cOynbU5jzNk7qH-Hy5ZTwdGt6I0/edit?usp=share_link", // 8
     "",
     "",
     "",
@@ -52,10 +54,10 @@ const clases_grabaciones = {
     clase_04: "https://youtu.be/pEzjtpahs-s?si=YIDSBJszKGzBSJk6",
     clase_05: "",
     clase_06: "",
-    clase_07: "",
-    clase_08: "",
-    clase_09: "",
-    clase_10: "",
+    clase_07: "https://youtu.be/DHF5-JO0_3c?si=D93bUWjqqSWNQozX",
+    clase_08: "https://youtu.be/K2lYTRJA53Q?si=UvcDR5xOt3oqnydh",
+    clase_09: "https://youtu.be/hcbIkmIfpPM?si=0xYn_y2CGGRpH4HU",
+    clase_10: "https://youtu.be/pgCGzpqwbaI?si=REizRYOf2Q1ilqby",
     clase_11: "",
     clase_12: "",
     clase_13: "",
