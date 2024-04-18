@@ -13,8 +13,8 @@ const clases_diapositivas = [
     "https://docs.google.com/presentation/d/1g9s7gULE_edliGFuizlUpg6DNH2ou_POHdiUH_Qv2qA/edit?usp=share_link", // 5
     "https://docs.google.com/presentation/d/1EAK0dXwhYJpUFt8RaHcluX9IwvyS8-A4xpcqNggmbug/edit?usp=sharing", // 6
     "https://docs.google.com/presentation/d/1lUj9AXzIvDfngeUnuWWiEdLzqaWaHgZNyWThd9YsSO0/edit?usp=share_link", // 7
-    "https://docs.google.com/presentation/d/1lUj9AXzIvDfngeUnuWWiEdLzqaWaHgZNyWThd9YsSO0/edit?usp=share_link", // 7
-    "https://docs.google.com/presentation/d/1-uY0XCYSqrvVqta4cOynbU5jzNk7qH-Hy5ZTwdGt6I0/edit?usp=share_link", // 8
+    "https://docs.google.com/presentation/d/1OwojI9z1xMlrUGCUVPgVOzJn0WlJ7eWS7vX_EWElH6Q/edit?usp=share_link", // 8
+    "https://docs.google.com/presentation/d/1-uY0XCYSqrvVqta4cOynbU5jzNk7qH-Hy5ZTwdGt6I0/edit?usp=share_link", // 9
     "",
     "",
     "",
