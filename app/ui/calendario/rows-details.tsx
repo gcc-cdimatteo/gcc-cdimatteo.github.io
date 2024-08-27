@@ -2,6 +2,7 @@ import ModalidadStream from "./modalidad-stream";
 import ModalidadPresencial from "./modalidad-presencial";
 import ModalidadFeriado from "./modalidad-feriado";
 import ModalidadVirtual from "./modalidad-virtual";
+import { getSheetData } from "../../api/googleSheets";
 
 const clases_diapositivas = [
     "https://docs.google.com/presentation/d/1zrOqeeOyucCVuej2t1nmGFft-xQNBhLMuiJnTSVQnwQ/edit?usp=drive_link", // 1
@@ -40,7 +41,6 @@ const clases_diapositivas = [
     "",
     "",
 ];
-
 
 "https://docs.google.com/presentation/d/1zrOqeeOyucCVuej2t1nmGFft-xQNBhLMuiJnTSVQnwQ/edit?usp=drive_link".split(',');
 

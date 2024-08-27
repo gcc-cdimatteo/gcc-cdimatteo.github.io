@@ -2,7 +2,7 @@
 
 import { Breadcrumb, Layout, theme } from 'antd';
 import SchoolIcon from '@mui/icons-material/School';
-import { ReactElement, ReactHTML } from 'react';
+import { ReactElement } from 'react';
 
 const { Content } = Layout;
 
@@ -13,21 +13,19 @@ export default function PageContainer({ breadcrumb, content }: { breadcrumb: str
 
     return (
         <Content style={{ marginLeft: '1rem', marginRight: '1rem' }}>
-            <Breadcrumb style={{ marginTop: '1rem', marginBottom: '1rem' }}>
-                <Breadcrumb.Item>
-                    <SchoolIcon></SchoolIcon>
-                </Breadcrumb.Item>
-                <Breadcrumb.Item>{breadcrumb}</Breadcrumb.Item>
-            </Breadcrumb>
+            <Breadcrumb style={{ marginTop: '1rem', marginBottom: '1rem' }}
+                items={[
+                    { title: <SchoolIcon /> },
+                    { title: breadcrumb }
+                ]}
+            />
             <Content
                 style={{
                     padding: '2rem',
                     marginTop: '1rem',
-                    // margin: 0,
                     background: '#BFDDF4',
                     borderRadius: borderRadiusLG,
                     color: '#000000',
-                    // display: 'flex',
                 }}
             >
                 {content}
