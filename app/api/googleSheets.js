@@ -1,10 +1,11 @@
 const { google } = require('googleapis');
-const sheets = google.sheets('v4');
-const fs = require('fs');
 
 export const getSheetData = async () => {
     const auth = new google.auth.GoogleAuth({
-        keyFile: './credentials.json',
+        credentials: {
+            client_email: process.env.CLIENT_EMAIL,
+            private_key: process.env.PRIVATE_KEY.replace(/\\n/g, '\n'),
+        },
         scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly'],
     });
 
