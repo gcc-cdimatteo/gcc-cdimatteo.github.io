@@ -23,7 +23,12 @@ interface PageProps {
   calendar_rows_details: CalendarRowDetails[];
 }
 
-export default function Page({ calendar_rows_details }: PageProps) {
+export default async function Page({ calendar_rows_details }: PageProps) {
+
+  const calendar = await getCalendarRowsDetails();
+
+  console.log("calendar", calendar);
+
   const p_content = (
     <>
       <Row style={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
@@ -31,7 +36,7 @@ export default function Page({ calendar_rows_details }: PageProps) {
 
         <Divider style={{ borderWidth: 4, borderColor: '#306CBE' }} />
 
-        {calendar_rows_details?.map((row, index) => (
+        {calendar?.map((row, index) => (
           <React.Fragment key={index}>
             <CalendarRow
               semana={row.semana}
