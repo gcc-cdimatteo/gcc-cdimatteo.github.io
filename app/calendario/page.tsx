@@ -5,25 +5,7 @@ import CalendarRowHeader from '../ui/calendario/calendar-row-header';
 import { getCalendarRowsDetails } from '../api/rows-detail';
 import React from 'react';
 
-interface CalendarRowDetails {
-  semana: string;
-  teorica_fecha: string;
-  teorica_temas: string[];
-  // teorica_diapositiva: string;
-  // teorica_modalidad: string;
-  // teorica_grabacion: string;
-  practica_fecha: string;
-  practica_temas: string[];
-  // practica_diapositiva: string;
-  // practica_modalidad: string;
-  // practica_grabacion: string;
-}
-
-interface PageProps {
-  calendar_rows_details: CalendarRowDetails[];
-}
-
-export default async function Page({ calendar_rows_details }: PageProps) {
+export default async function Page() {
 
   const calendar = await getCalendarRowsDetails();
 
