@@ -5,6 +5,8 @@ import ListItem from "../list-item";
 import { FiberManualRecordTwoTone } from "@mui/icons-material";
 
 export default function ColTeoricaPractica({ content }: { content: Array<string> }) {
+    if (!content) return <></>;
+
     // Cabecera
     if (content.length == 1 && (content[0] == "TEÓRICA" || content[0] == "PRÁCTICA" || content[0] == "FERIADO")) {
         return (
@@ -18,7 +20,11 @@ export default function ColTeoricaPractica({ content }: { content: Array<string>
     return (
         <>
             <Col span={teorica_practica_col}>
-                {content.map((topic) => { return <ListItem icon={<FiberManualRecordTwoTone style={{ color: '#005AB6', fontSize: 12 }} />} text={<p style={{ textAlign: 'left' }}>{topic}</p>} /> })}
+                {content.map((topic) => {
+                    if (topic == "") return <></>;
+                    return <ListItem icon={<FiberManualRecordTwoTone style={{ color: '#005AB6', fontSize: 12 }} />} text={<p style={{ textAlign: 'left' }}>{topic.replace('- ', '')}</p>} />
+                })
+                }
             </Col>
         </>
     );

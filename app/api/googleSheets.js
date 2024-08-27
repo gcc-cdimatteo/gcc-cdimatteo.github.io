@@ -13,7 +13,7 @@ export const getSheetData = async () => {
     const googleSheets = google.sheets({ version: 'v4', auth: client });
 
     const spreadsheetId = '1mlXN37dyvSaf9WZcYHv8PJbe93Tie4hVKbFNZtvMWHQ';
-    const range = 'IDS - 2024 - 2C!A8:G24';
+    const range = 'IDS - 2024 - 2C!A8:G23';
 
     const response = await googleSheets.spreadsheets.values.get({
         spreadsheetId,

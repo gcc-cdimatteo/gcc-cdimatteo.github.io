@@ -7,15 +7,15 @@ export const getCalendarRowsDetails = async () => {
         return {
             semana: row[0],
             teorica_fecha: row[1],
-            teorica_temas: row[2],
-            teorica_diapositiva: row[3],
-            teorica_modalidad: row[4],
-            teorica_grabacion: row[5],
-            practica_fecha: row[6],
-            practica_temas: row[7],
-            practica_diapositiva: row[8],
-            practica_modalidad: row[9],
-            practica_grabacion: row[10],
+            teorica_temas: row[3],
+            teorica_diapositiva: undefined,
+            teorica_modalidad: undefined,
+            teorica_grabacion: undefined,
+            practica_fecha: row[4],
+            practica_temas: row[6],
+            practica_diapositiva: undefined,
+            practica_modalidad: undefined,
+            practica_grabacion: undefined,
         };
     });
 
