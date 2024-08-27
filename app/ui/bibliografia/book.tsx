@@ -7,10 +7,6 @@ export default function Book({ link, title }: { link: string, title: string }) {
     return (
         <>
             <ListLinkItem icon={<AutoStoriesOutlined htmlColor="#006EAF" />} link={link} title={title} />
-            {/* <Link href={link} target='_blank'>
-                <ListItem icon={<AutoStoriesOutlined htmlColor="#006EAF" />} text={<p>{title}</p>} />
-            </Link> */}
-            {/* oculto por copyright */}
         </>
     );
 }
