@@ -16,7 +16,7 @@ export default async function Page() {
 
         <Divider style={{ borderWidth: 4, borderColor: '#306CBE' }} />
 
-        {calendar?.map((row, index) => (
+        {calendar?.map((row: any, index: number) => (
           <React.Fragment key={index}>
             <CalendarRow
               semana={row.semana}

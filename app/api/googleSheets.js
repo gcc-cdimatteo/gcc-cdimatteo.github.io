@@ -24,7 +24,6 @@ export const getSheetData = async () => {
     const rows = response.data.values;
 
     if (rows.length) {
-        console.log('Data:', rows);
         return rows;
     } else {
         console.log('No data found.');

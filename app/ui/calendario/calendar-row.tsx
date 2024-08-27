@@ -23,19 +23,13 @@ export default function CalendarRow(
     }) {
     return (
         <>
-            {/* <ColSemana semana_nro={semana} /> */}
-            {/* <Divider style={{ borderWidth: 1, borderColor: '#607899' }} type="vertical" /> */}
-            {/* <ColWhite /> */}
             <ColFecha fecha={teorica_fecha} />
             <ColTeoricaPractica content={teorica_temas} />
-            {/* <ColDiapositivaModalidadGrabacion url_diapositiva={teorica_diapositiva} modalidad={teorica_modalidad} url_grabacion={teorica_grabacion} /> */}
-            {/* <Divider style={{ borderWidth: 1, borderColor: '#607899' }} type="vertical" /> */}
             <ColWhite />
             <ColWhite />
             <ColWhite />
             <ColFecha fecha={practica_fecha} />
             <ColTeoricaPractica content={practica_temas} />
-            {/* <ColDiapositivaModalidadGrabacion url_diapositiva={practica_diapositiva} modalidad={practica_modalidad} url_grabacion={practica_grabacion} /> */}
         </>
     );
 }
